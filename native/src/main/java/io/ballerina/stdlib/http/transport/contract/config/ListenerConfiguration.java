@@ -58,8 +58,8 @@ public class ListenerConfiguration extends SslConfiguration {
     private int gracefulStopTimeout = 0;
     private int soBackLog;
     private int connectTimeOut;
-    private int receiveBufferSize;
-    private int sendBufferSize;
+    private int receiveBufferSize = 1;
+    private int sendBufferSize = 1;
     private boolean tcpNoDelay;
     private boolean socketReuse;
     private boolean socketKeepAlive;
